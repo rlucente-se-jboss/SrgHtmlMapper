@@ -20,6 +20,6 @@ Simply run the following maven command,
     mvn exec:java
 
 The generated reports are:
-* SP800-53ToCCIToSRG.html
-* SRGToCCIToSP800-53.html
+* [SP800-53ToCCIToSRG.html](http://people.redhat.com/rlucente/SP800-53ToCCIToSRG.html)
+* [SRGToCCIToSP800-53.html](http://people.redhat.com/rlucente/SRGToCCIToSP800-53.html)
 
