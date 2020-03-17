@@ -1,6 +1,6 @@
 # SrgHtmlMapper
 This is a quick and dirty effort to generate forward and reverse
-mappings between SP 800-53 controls and the DISA SRG identifiers
+mappings between NIST SP 800-53 controls and the DISA SRG identifiers
 in the operating system SRG.
 
 The following files are in src/main/resources:
