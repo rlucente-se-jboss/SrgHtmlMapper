@@ -39,3 +39,13 @@ The generated reports are:
 * [SP800-53ToCCIToSRG.html](http://people.redhat.com/rlucente/SP800-53ToCCIToSRG.html)
 * [SRGToCCIToSP800-53.html](http://people.redhat.com/rlucente/SRGToCCIToSP800-53.html)
 
+## Traceability Check
+A sanity check report of SRG references in the DISA source documents
+compared against the [ComplianceAsCode](https://github.com/ComplianceAsCode/content)
+project can be generated using the command,
+
+    traceability-check/check-cac-content.sh
+
+The generated report is:
+* [disa-srg-cac-traceability.txt](https://people.redhat.com/rlucente-se-jboss/disa-srg-cac-traceability.txt)
+
