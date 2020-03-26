@@ -50,7 +50,7 @@ diff -uw disa-srg-list.txt cac-srg-list.txt | \
   echo
   echo The following compares the requirements in the DISA General Purpose
   echo 'Operating System (GPOS) Security Requirements Guide (SRG) against the'
-  echo SRG references in the Compliance as Code project.
+  echo SRG references in the ComplianceAsCode project.
   echo
   echo "************************************************************************"
   echo
