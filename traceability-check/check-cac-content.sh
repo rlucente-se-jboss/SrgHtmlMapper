@@ -24,7 +24,8 @@ git clone https://github.com/ComplianceAsCode/content.git
 grep -rn SRG- content | \
     sed $'s/SRG-/\\\nSRG-/g' | \
     grep '^SRG-' | \
-    sed 's/^\(SRG-[0-9A-Z\-]*\)..*/\1/g' | \
+    sed 's/^\(SRG-[0-9A-Z\-]*\)/\1 /g' | \
+    awk '{print $1}' | \
     sort -u \
     > cac-srg-list.txt
 
@@ -35,7 +36,8 @@ grep -rn SRG- content | \
 grep -rn SRG- ../SRGToCCIToSP800-53.html | \
     sed $'s/SRG-/\\\nSRG-/g' | \
     grep '^SRG-' | \
-    sed 's/^\(SRG-[0-9A-Z\-]*\)..*/\1/g' | \
+    sed 's/^\(SRG-[0-9A-Z\-]*\)/\1 /g' | \
+    awk '{print $1}' | \
     sort -u \
     > disa-srg-list.txt
 
