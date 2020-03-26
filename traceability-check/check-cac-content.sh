@@ -66,7 +66,7 @@ diff -uw disa-srg-list.txt cac-srg-list.txt | \
   fi
   
   echo
-  echo The following string occurrences in Compliance As Code do not match a
+  echo The following string occurrences in ComplianceAsCode do not match a
   echo requirement in the DISA GPOS SRG:
   echo
   if [[ "$(grep '^+' srg-diff-list.txt | wc -l)" -eq 0 ]]
