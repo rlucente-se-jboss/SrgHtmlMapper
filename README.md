@@ -47,5 +47,5 @@ project can be generated using the command,
     traceability-check/check-cac-content.sh
 
 The generated report is:
-* [disa-srg-cac-traceability.txt](https://people.redhat.com/rlucente-se-jboss/disa-srg-cac-traceability.txt)
+* [disa-srg-cac-traceability.txt](https://people.redhat.com/rlucente/disa-srg-cac-traceability.txt)
 
