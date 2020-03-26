@@ -40,7 +40,8 @@ grep -rn SRG- ../SRGToCCIToSP800-53.html | \
     > disa-srg-list.txt
 
 diff -uw disa-srg-list.txt cac-srg-list.txt | \
-    grep -v '^+++' | grep -v '^---' \
+    grep -v '^+++' | grep -v '^---' | \
+    grep -v 'SRG-APP' \
     > srg-diff-list.txt
 
 {
